@@ -1,0 +1,48 @@
+--cmd inicial tsc C1 {
+
+C:\Users\Joao.ferreira>cd C:/Projetos/estudos/curso-typescript
+
+C:\PROJETOS\ESTUDOS\Curso-TypeScript>dir
+ O volume na unidade C é OS
+ O Número de Série do Volume é E68E-44FE
+
+ Pasta de C:\PROJETOS\ESTUDOS\Curso-TypeScript
+
+08/11/2023  08:38    <DIR>          .
+08/11/2023  08:36    <DIR>          ..
+08/11/2023  08:38    <DIR>          introducao
+08/11/2023  08:35            12.397 tsconfig.json
+               1 arquivo(s)         12.397 bytes
+               3 pasta(s)   268.522.696.704 bytes disponíveis
+
+C:\PROJETOS\ESTUDOS\Curso-TypeScript>cd introducao
+
+C:\PROJETOS\ESTUDOS\Curso-TypeScript\introducao>tsc basico.ts
+
+C:\PROJETOS\ESTUDOS\Curso-TypeScript\introducao>node basico.js
+Teste Ts!
+
+} --fim C1
+
+//////////////////////////////////////////////////////////////////////////////////////
+
+--cmd para code runner C2 {
+C:\PROJETOS\ESTUDOS\Curso-TypeScript\introducao>npm i -g ts-node
+
+added 20 packages in 3s
+
+//CTRL + ALT + N para executar o Code Runner no VS Code
+} --fim C2
+
+//////////////////////////////////////////////////////////////////////////////////////
+
+--cmd para live server (comentarios importantes) C3 {
+
+C:\PROJETOS\ESTUDOS\Curso-TypeScript>npm i -s live-server
+
+/*	
+	Esse comando instala a dependencia do live server no projeto
+	Vale lembrar que o (-s) instala a dependencia apenas naquele projeto especifico enquanto o (-g) instala recursos globais para que seja usado por qualquer outro projeto
+*/
+
+
